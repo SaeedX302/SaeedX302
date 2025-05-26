@@ -63,7 +63,7 @@
 
 <div align="center">
     <a href="https://github.com/SaeedX302">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=SaeedX302&repo=your-best-repo&theme=tokyonight&hide_border=true" />
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=SaeedX302&repo=Full-Pp&theme=tokyonight&hide_border=true" />
     </a>
 </div>
 
@@ -91,5 +91,5 @@
 
 <!-- Footer -->
 <div align="center">
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%" />
+    <img src="[https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%](https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=°【〆༯𝙎ค૯𝙀𝘿】✘,【.ISHU.】&section=footer&reversal=false&textBg=false&fontColor=ff0000&fontSize=38&fontAlign=50&fontAlignY=61)" />
 </div>
