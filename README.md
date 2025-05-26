@@ -1,6 +1,6 @@
 <!-- Header with animated wave -->
 <h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=6A5ACD&center=true&vCenter=true&random=false&width=600&height=100&lines=Hi+there%2C+I'm+Saeed+%F0%9F%91%8B;Mobile+%26+Full-Stack+Developer+%F0%9F%9A%80;Flutter+%7C+Swift+%7C+React+%7C+Node.js+%F0%9F%8E%AF" alt="Typing SVG" />
+    <img src="[https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=6A5ACD&center=true&vCenter=true&random=false&width=600&height=100&lines=Hi+there%2C+I'm+Saeed+%F0%9F%91%8B;Mobile+%26+Full-Stack+Developer+%F0%9F%9A%80;Flutter+%7C+Swift+%7C+React+%7C+Node.js+%F0%9F%8E%AF](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=6A5ACD&center=true&vCenter=true&random=false&width=600&height=100&lines=Hi+there%2C+I'm+Saeed+%F0%9F%91%8B;Mobile+%26+Full-Stack+Developer+%F0%9F%9A%80;Flutter+%7C+Swift+%7C+React+%7C+Node.js+%F0%9F%8E%AF](https://git.io/typing-svg)" alt="Typing SVG" />
 </h1>
 
 <!-- Profile Views Counter -->
