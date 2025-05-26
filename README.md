@@ -8,7 +8,7 @@
 ### 🚀 About Me
 - 👨‍💻 I'm working on **unique and futuristic Android apps & tools**
 - 🔭 Currently building `Tsuntg Downloader` and `WA QuickChat`
-- 🌐 Owner of [Full-Pp](https://github.com/SaeedX302/Full-Pp)
+- 🌐 Owner of [Full-Pp](babli-pfp.vercel.app/)
 - 💡 Obsessed with *UI/UX that slaps*, *AI integrations*, and *Web3 tech*
 - 📲 Aiming for futuristic apps till **2055** 🔮
 
