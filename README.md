@@ -1,4 +1,4 @@
-<h1 align="center">Hey there 👋, I'm SaeedX302</h1>
+<h1 align="center">Hey there 👋, I'm °【〆༯𝙎ค૯𝙀𝘿】✘,【.ISHU.】</h1>
 <h3 align="center">💻 Developer | 🎨 Designer | 🧠 Thinker | 🦾 Sigma Soul</h3>
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=24&pause=1000&color=FF3C3C&center=true&vCenter=true&width=440&lines=Turning+Ideas+into+Reality...;With+Code+and+Creativity." alt="Typing SVG" />
@@ -8,7 +8,7 @@
 ### 🚀 About Me
 - 👨‍💻 I'm working on **unique and futuristic Android apps & tools**
 - 🔭 Currently building `Tsuntg Downloader` and `WA QuickChat`
-- 🌐 Owner of [Full-Pp](babli-pfp.vercel.app/)
+- 🌐 Owner of [Full-Pp](https://babli-pfp.vercel.app/)
 - 💡 Obsessed with *UI/UX that slaps*, *AI integrations*, and *Web3 tech*
 - 📲 Aiming for futuristic apps till **2055** 🔮
 
@@ -23,8 +23,8 @@
 
 ### 🌍 Connect With Me
 
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/saeedx302)  
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/saeedx302)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/saeedxdie)  
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/saeedxdie)
 
 ---
 
