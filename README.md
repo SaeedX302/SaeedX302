@@ -1,6 +1,6 @@
 <!-- Header with animated wave -->
 <h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=6A5ACD&center=true&vCenter=true&random=false&width=600&height=100&lines=Hi+there%2C+I'm+Saeed+%F0%9F%91%8B;Mobile+%26+Full-Stack+Developer+%F0%9F%9A%80;Flutter+%7C+Swift+%7C+React+%7C+Node.js+%F0%9F%8E%AF" alt="Typing SVG" />
+    <img src="[https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=6A5ACD&center=true&vCenter=true&random=false&width=600&height=100&lines=Hi+there%2C+I'm+Saeed+%F0%9F%91%8B;Mobile+%26+Full-Stack+Developer+%F0%9F%9A%80;Flutter+%7C+Swift+%7C+React+%7C+Node.js+%F0%9F%8E%AF](https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Atma&size=30&pause=1000&width=435&lines=Hello+I+Am++%C2%B0%E0%BC%AF%F0%9D%99%8E%E0%B8%84%E0%AB%AF%F0%9D%99%80%F0%9D%98%BF%F0%9F%AB%80;%C2%B0%E3%80%90%E3%80%86%E0%BC%AF%F0%9D%99%8E%E0%B8%84%E0%AB%AF%F0%9D%99%80%F0%9D%98%BF%E3%80%91%E2%9C%98%2C%E3%80%90.ISHU.%E3%80%91)" alt="Typing SVG" />
 </h1>
 
 <!-- Profile Views Counter -->
@@ -10,7 +10,7 @@
 
 <!-- Animated Banner -->
 <div align="center">
-    <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="600" height="300"/>
+    <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="500" height="300"/>
 </div>
 
 <!-- About Me Section with Gradient -->
