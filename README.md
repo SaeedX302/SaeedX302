@@ -21,15 +21,15 @@
     </h2>
 </div>
 
-<p align="center">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&pause=1000&color=6A5ACD&center=true&vCenter=true&random=false&width=600&height=50&lines=Passionate+Mobile+%26+Full-Stack+Developer;Building+tomorrow's+digital+experiences+%E2%9C%A8" alt="About Me Typing SVG" />
-</p>
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=1000&color=F97316&center=true&vCenter=true&width=500&height=45&lines=Hey%2C+I'm+Old+Now!;Flutter+%F0%9F%93%B1+%26+Swift+%F0%9F%90%8C+Dev!;Full-Stack+React+%2B+Node+Wizard+%F0%9F%94%AE"/>
+</div>
 
 <!-- Tech Stack with Animated Icons -->
 <div align="center">
     <h2>
         <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
-        Tech Stack
+         Tech Stack
     </h2>
 </div>
 
@@ -49,6 +49,9 @@
     <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=white&labelColor=20232A" />
     <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white&labelColor=20232A" />
 </div>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=flutter,swift,react,nodejs,ts,js,mongodb,firebase,tailwind,figma,vscode,git" />
+</p>
 
 <!-- GitHub Stats with Animation -->
 <div align="center">
@@ -56,7 +59,7 @@
         <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="30" alt="Git Stats"/>
         GitHub Stats
     </h2>
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=SaeedX302&theme=tokyonight&hide_border=true&background=0D1117&stroke=0D1117&ring=6A5ACD&fire=6A5ACD&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=6A5ACD&sideLabels=6A5ACD&dates=FFFFFF" />
+    <img src="(https://github-readme-streak-stats.herokuapp.com?user=Saeedx302&theme=tokyonight&hide_border=true" />
     <br/>
     <img src="https://github-readme-stats.vercel.app/api?username=SaeedX302&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6A5ACD&icon_color=6A5ACD" />
 </div>
@@ -75,6 +78,14 @@
     </a>
 </div>
 
+
+| 🚨 Project               | 🚀 Description                    | 🛠 Stack            | 🔗 Link                                                   |
+| ------------------------ | --------------------------------- | ------------------- | --------------------------------------------------------- |
+| **📲 Tsuntg Downloader** | Download Telegram stickers easily | Flutter, Firebase   | [🔗 Repo](https://github.com/SaeedX302/Tsuntg-Downloader) |
+| **🟢 WA QuickChat**      | WhatsApp toggle shortcut launcher | Kotlin, Android SDK | [🔗 Repo](https://github.com/SaeedX302/WA-QuickChat)      |
+| **🌐 Full-Pp Viewer**    | Stylish Telegram PFP viewer       | React, Tailwind     | [🌍 Live](https://babli-pfp.vercel.app)                   |
+
+
 <!-- Currently Learning -->
 <div align="center">
     <h2>
@@ -92,15 +103,36 @@
         <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="30">
         Let's Connect
     </h2>
-    <a href="https://www.linkedin.com/in/tsun-studies-98a630318/">
-        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=20232A" />
     </a>
-    <a href="https://twitter.com/saeedxdie">
-        <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=20232A" />
+    <a href="">
     </a>
     <a href="mailto:tsuncca19@gmail.com">
-        <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=20232A" />
+        <img src="" />
     </a>
+</div>
+
+
+<p align="center">
+  <a href="mailto: tsunstudio@gmail.com"><img src="https://raw.githubusercontent.com/SaeedX302/file-storage-2/main/pictures/png/pasted-image-1751369876740.png" /></a>
+  <a href="https://www.linkedin.com/in/tsun-studies-98a630318/"><img src="https://skillicons.dev/icons?i=linkedin" /></a>
+  <a href="https://twitter.com/saeedxdie"><img src="https://skillicons.dev/icons?i=twitter" /></a>
+  <a href="https://instagram.com/saeedx302"><img src="https://skillicons.dev/icons?i=instagram" /></a>
+  <a href="https://t.me/saeedxdie"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsSAAALEgHS3X78AAAAAXNSR0IArs4c6QAABUhJREFUaEPtmmtoW2UYx/8nl+Zy0qRpekmT3pt21G7DzTnHqmVMN8vAMayUdd9keEFQUBxeUFSQwegEmZdtDOZtggymYx+6atcqiu20bHNVOp2VNs2Wrm3SSy5N0pycI+9JT5a2SZOmSZNBz4eEnDx53//v/zznvZCXwtyl2rx7Z/ae5w9lVW6qp0SibOF+Jr1zLOuc/e+Pbkfbp63uax2dRBtFXrT733xN0/jcYQCiTBK8hBZuuv3kG5PfHD5CEefzXjp1SYC5RwCITM527JnHqKK3vr0oMz3QeA8JD0n1DVxpp8pODzoyteZjmcqxrIMq/9zMxQrM5O/XANKdnbUMrGVghQ6sldAKDVzxzzMiA3qlGI+XKlCskuDY9Wk4/fFPTWkDEFPADqMCB2poNBgVIJ/JdfD8DXRNykGJJXFlZ9UBimgxmk0qNFfTKFKKF4lsPtOLnttuSArK4oJYFQDiLnG5pZrmXZdEWbSTwtnwQRemPH5QUllcECkFKFQSt2nebSM9vyQ4DrA7vdDQMkjn6mfAPoMdx38JZSUeiKQDEC0PG+Q4UKPCzuK7tR1eK06vH+ZRB+TyLJgK727+zvZZ8cqFP+eVVSyIpAEQt5+qCrpdoor8ADIsh1s2F+xTM8jTqVCmo+eJff1iP85csSx6LpaCWBGAiALqi+RoqVHh0WI5pORGlGvC5YNlzAGOZVGqz0GuSrYocvepHvSPOiK2EA0iIYB8hRhNVTRaaqK7LajwMSyGxxxwuryQScWoMmohz1qcIddsAOuPdoJkKdoVCWJZAMTh9x7SoqlKuaTb/IYVwOjUDEZsLt71bGUWKopyIBFHHoK6zRNo/qo35ti/EGJZAFUaKY43aGHSLk5/eM9uH4PhUQc83ln+tk6jQGmBGhQVvcQ++nUQR368GROABIRDLAuAd9bvQ614Ek33FWJvnR75dFao0wDLwTrhxvikGyDjJACDTgW9ThVT2NNnr6Hj5ljMOCEgBJHInpib9cI/ZoaE4tBQqUPTBgO2F+fgjt0Fv5/h+yBelxSqkadRxhRFWDd9+BNsbl/M2PAAArHsDAgNcLMe+MeGATbA33phSwkaK3ND4sv0GuSqFXEJMk96UP/Jz3HFLgxKGIAvJ58H/nEzwLLYXKTGu49U8O2raRlMRm3cgr77awQvnu+LO35eFhIpofAGON8MnwmpCPhybx1oqQjWcSeMBWpsrCqAeIm5QWjn7e//xme95vQAkF5ZrxvMuAWvbitFQ4kGwyPTCJChk5ZhS60BudnyJcXtOX0Zfdbp9AEIENsUThzaWowh61RIzKDbD1NFAfbV6SMK9DIsals74Q+w6QUgvcsDHpx8kMbYeHA5cNU2g6//tfOz68Gt5Xhn1zosrKjfLVN48ovfEhLPj3YrfQYW9vxyOQdDwI0uqxMXhiaF6YAPq6/Q4eN9G+fNHScuD+H9S/9kDsA6OYOAzYL+CU9EUTplFo4+sR67qvP57589dx1tN+5kDgD/PLinwNhH5lZEi7WRJcX++40wqOU40TME92xw8kvkSnoJCSJY9zQYuzUqRCJiI/0mZQB8JmamwdhSC5FSgCCEA4z9dmhxlyznhXZSDpBqiFUBCEI4wdhvJT0TqwbAQ3icYGzJhVhVgFRArDpAEMIFxmZJQjlRSNvfrKzXBWaclFNiiziy5xNrCx1p/aNbWIYnAiHRGeEfGWgXjhp0pOucRCIQRLyI1gSPGpCaTPdhj/ghKEh0Bl586LCHMKOFHbfZTolE6mTPmLHaE7amS5WTWKt3MKOD3c62E62uqz90kTb/B51CTBarS4e/AAAAAElFTkSuQmCC" /></a>
+</p>
+
+---
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SaeedX302&theme=github-compact" width="95%" />
+</p>
+
+---
+
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=4000&pause=1000&color=F97316&center=true&vCenter=true&width=500&height=45&lines=Thanks+For+Visiting!+%F0%9F%91%8B"/>
+  <br>
+  <b>جون ایلیا:</b><br>
+  <i>"تمہیں دیکھنے کی تمنا ہے، مگر فرصت کہاں ملتی ہے"</i>
 </div>
 
 <!-- Snake Animation -->
