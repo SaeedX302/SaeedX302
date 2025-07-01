@@ -59,7 +59,7 @@
         <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="30" alt="Git Stats"/>
         GitHub Stats
     </h2>
-    <img src="(https://github-readme-streak-stats.herokuapp.com?user=Saeedx302&theme=tokyonight&hide_border=true" />
+    <img src="(https://github-readme-streak-stats.herokuapp.com/demo/preview.php?user=Saeedx302&theme=tokyonight&hide_border=true" />
     <br/>
     <img src="https://github-readme-stats.vercel.app/api?username=SaeedX302&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6A5ACD&icon_color=6A5ACD" />
 </div>
