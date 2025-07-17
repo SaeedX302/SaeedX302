@@ -1,0 +1,55 @@
+
+name: Update Quote in README
+
+on:
+  schedule:
+    # This runs every minute (GitHub Actions minimum interval)
+    # Unfortunately, 10 seconds is not possible with GitHub Actions
+    - cron: '* * * * *'
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  update-quote:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+        
+    - name: Fetch new quote and update README
+      run: |
+        # Fetch quote from your API
+        QUOTE_DATA=$(curl -s "https://tsunquotes.vercel.app/quotes")
+        QUOTE=$(echo "$QUOTE_DATA" | jq -r '.quote')
+        AUTHOR=$(echo "$QUOTE_DATA" | jq -r '.author')
+        
+        # URL encode the quote and author for the image URL
+        ENCODED_QUOTE=$(echo "$QUOTE" | jq -sRr @uri)
+        ENCODED_AUTHOR=$(echo "$AUTHOR" | jq -sRr @uri)
+        
+        # Create the new image URL
+        NEW_QUOTE_URL="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=${ENCODED_QUOTE}&author=${ENCODED_AUTHOR}"
+        
+        # Update README.md
+        sed -i "s|https://quotes-github-readme\.vercel\.app/api?type=horizontal&theme=tokyonight&quote=.*|${NEW_QUOTE_URL}\" />|" README.md
+        
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add README.md
+        
+        # Check if there are changes to commit
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "🔄 Auto-update quote from tsunquotes API"
+          git push
+        fi
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
