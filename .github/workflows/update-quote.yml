@@ -3,10 +3,12 @@ name: Update Quote in README
 
 on:
   schedule:
-    # This runs every minute (GitHub Actions minimum interval)
-    # Unfortunately, 10 seconds is not possible with GitHub Actions
-    - cron: '* * * * *'
+    # This runs every 5 minutes to avoid rate limiting
+    - cron: '*/5 * * * *'
   workflow_dispatch: # Allows manual triggering
+
+permissions:
+  contents: write  # This allows the workflow to write to repository contents
 
 jobs:
   update-quote:
