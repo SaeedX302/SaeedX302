@@ -3,10 +3,12 @@ name: Update Quote in README
 
 on:
   schedule:
-    # This runs every minute (GitHub Actions minimum interval)
-    # Unfortunately, 10 seconds is not possible with GitHub Actions
-    - cron: '* * * * *'
+    # This runs every 5 minutes to avoid rate limiting
+    - cron: '*/5 * * * *'
   workflow_dispatch: # Allows manual triggering
+
+permissions:
+  contents: write  # This allows the workflow to write to repository contents
 
 jobs:
   update-quote:
@@ -15,6 +17,9 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
       
     - name: Setup Node.js
       uses: actions/setup-node@v3
@@ -49,7 +54,7 @@ jobs:
           echo "No changes to commit"
         else
           git commit -m "🔄 Auto-update quote from tsunquotes API"
-          git push
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
         fi
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
