@@ -1,3 +1,5 @@
+
+{FORMATTED_QUOTE}
 <div align="center">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=200&section=header&text=Saeed%20X302&fontSize=60&fontAlignY=35&animation=twinkling&fontColor=fff" />
 </div>
