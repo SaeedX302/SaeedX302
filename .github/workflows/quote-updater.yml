@@ -10,23 +10,25 @@ jobs:
     name: Update README with a new quote
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
         with:
           token: ${{ secrets.GH_PAT }}
-          
-      - uses: gautamkrishnar/blog-post-workflow@v1
+
+      - name: Update README quote
+        uses: siddharth2016/quote-readme@main
         with:
-          # Is API se quote fetch karega
-          feed_list: "https://tsunquotes.vercel.app/quotes"
+          # Your README file
+          readme_path: './README.md'
           
-          # Ye tag README mein quote ki jagah batayega
-          comment_tag_name: "QUOTE_SECTION"
+          # Your API endpoint
+          quote_api_url: "https://tsunquotes.vercel.app/quotes"
           
-          # Ye template use karke quote ko format karega
-          # API se "quote" ab "$title" ban jayega aur "author" ab "$author"
-          template: "<i>❝ $title ❞</i><br>— <b>$author</b>"
+          # API keys for your specific JSON response
+          quote_key: "quote"
+          author_key: "author"
           
-          # Commit ke liye aapke details
+          # Commit details
           commit_message: "chore(bot): ✨ Update quote of the moment"
-          commit_user_name: "〆༯𝙎คAEED✘🫀"
-          commit_user_email: "tsuncca19@gmail.com"
+          committer_name: "〆༯𝙎คAEED✘🫀"
+          committer_email: "tsuncca19@gmail.com"
