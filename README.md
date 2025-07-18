@@ -22,7 +22,7 @@
     Daily Inspiration
     <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="25" alt="Quote">
   </h3>
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=Code%20is%20poetry.&author=Anonymous" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=Code%20is%20poetry.&author=Anonymous"theme=tokyonight<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=Code%20is%20poetry.&author=Anonymous"quote=%DB%81%D8%B2%D8%A7%D8%B1%D9%88%DA%BA%20%D8%AE%D9%88%D8%A7%DB%81%D8%B4%DB%8C%DA%BA%20%D8%A7%DB%8C%D8%B3%DB%8C%20%DA%A9%DB%81%20%DB%81%D8%B1%20%D8%AE%D9%88%D8%A7%DB%81%D8%B4%20%D9%BE%DB%81%20%D8%AF%D9%85%20%D9%86%DA%A9%D9%84%DB%92%20%D8%A8%DB%81%D8%AA%20%D9%86%DA%A9%D9%84%DB%92%20%D9%85%D8%B1%DB%92%20%D8%A7%D8%B1%D9%85%D8%A7%D9%86%20%D9%84%DB%8C%DA%A9%D9%86%20%D9%BE%DA%BE%D8%B1%20%D8%A8%DA%BE%DB%8C%20%DA%A9%D9%85%20%D9%86%DA%A9%D9%84%DB%92%0A<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=Code%20is%20poetry.&author=Anonymous"author=%D9%85%D8%B1%D8%B2%D8%A7%20%D8%BA%D8%A7%D9%84%D8%A8%0A" />
 </div>
 
 <!-- Animated Banner -->
