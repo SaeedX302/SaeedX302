@@ -1,9 +1,7 @@
 name: Update README Quote 📝
 
 on:
-  # Manual run ke liye
   workflow_dispatch:
-  # Har 5 minute pe run hoga
   schedule:
     - cron: "*/5 * * * *"
 
@@ -11,22 +9,21 @@ jobs:
   update-readme:
     name: Update README with new quote
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout 🛎️
+        # `checkout` action ko bhi PAT provide kar rahe hain
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GH_PAT }}
 
       - name: Get new quote and update README 🚀
         run: |
-          # API se JSON fetch karein
           QUOTE_JSON=$(curl -s "https://tsunquotes.vercel.app/quotes")
-          # jq ka use karke quote aur author extract karein
           QUOTE_TEXT=$(echo $QUOTE_JSON | jq -r .quote)
           QUOTE_AUTHOR=$(echo $QUOTE_JSON | jq -r .author)
-          # README mein inject karne ke liye content format karein
           FORMATTED_QUOTE="<i>❝ $QUOTE_TEXT ❞</i><br>— <b>$QUOTE_AUTHOR</b>"
           
-          # awk command se README file mein content replace karein
-          # Ye command aur ke beech ka content update karega
           awk -v quote="$FORMATTED_QUOTE" '
             BEGIN {p=1}
             // {print; print quote; p=0}
@@ -36,9 +33,18 @@ jobs:
 
       - name: Commit and push if changed 💾
         run: |
-          git config --global user.name "༯𝙎ค૯𝙀𝘿✘🫀"
+          # Commit ke liye aapka naam aur email set kar rahe hain
+          git config --global user.name "〆༯𝙎คAEED✘🫀"
           git config --global user.email "tsuncca19@gmail.com"
           git add README.md
-          # Sirf tab commit karega jab file mein koi change hoga
-          git diff --staged --quiet || git commit -m "chore(bot): ✨ Update quote of the moment"
-          git push
+          
+          # Check karein agar koi changes hain
+          if git diff --staged --quiet; then
+            echo "No changes to commit. Working tree clean. ✅"
+          else
+            # Changes commit karein
+            git commit -m "chore(bot): ✨ Update quote of the moment"
+            # Updated push command jo PAT use karega
+            git push https://${{ secrets.GH_PAT }}@github.com/SaeedX302/SaeedX302.git HEAD:main
+            echo "Changes committed and pushed successfully. 🚀"
+          fi
