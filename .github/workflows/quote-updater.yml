@@ -11,23 +11,43 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout 🛎️
+      - name: Checkout Repository 🛎️
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.GH_PAT }}
+          token: ${{ secrets.GH_PAT }} # Uses the PAT you stored in secrets
 
-      - name: Get new quote and update README 🚀
-        env:
-          # FORMATTED_QUOTE ko yahan define kar rahe hain taake perl script access kar sake
-          FORMATTED_QUOTE: "<i>❝ $(curl -s https://tsunquotes.vercel.app/quotes | jq -r .quote) ❞</i><br>— <b>$(curl -s https://tsunquotes.vercel.app/quotes | jq -r .author)</b>"
+      - name: Update the quote in README.md 🚀
         run: |
-          # Markers define kar rahe hain
+          # Step 1: Fetch the quote and format it
+          QUOTE_JSON=$(curl -s "https://tsunquotes.vercel.app/quotes")
+          QUOTE_TEXT=$(echo "$QUOTE_JSON" | jq -r .quote)
+          QUOTE_AUTHOR=$(echo "$QUOTE_JSON" | jq -r .author)
+          FORMATTED_QUOTE="<i>❝ $QUOTE_TEXT ❞</i><br>— <b>$QUOTE_AUTHOR</b>"
+
+          # Define the markers for replacement
           START_MARKER=""
           END_MARKER=""
+
+          # Use a robust awk script to safely replace the content between the markers
+          awk -v quote="$FORMATTED_QUOTE" -v start="$START_MARKER" -v end="$END_MARKER" '
+            BEGIN {
+              in_section = 0
+            }
+            $0 ~ start {
+              print
+              print quote
+              in_section = 1
+              next
+            }
+            $0 ~ end {
+              in_section = 0
+            }
+            !in_section {
+              print
+            }
+          ' README.md > README.tmp && mv README.tmp README.md
           
-          # Perl one-liner jo safely content replace karega
-          # Ye sirf markers ke beech ka content badlega
-          perl -i -p0e "s/($START_MARKER\s*).*?(\s*$END_MARKER)/\$1\n$ENV{FORMATTED_QUOTE}\n\$2/s" README.md
+          echo "README.md has been updated with the new quote."
 
       - name: Commit and push if changed 💾
         run: |
@@ -35,6 +55,7 @@ jobs:
           git config --global user.email "tsuncca19@gmail.com"
           git add README.md
           
+          # Check if there are any changes to commit
           if git diff --staged --quiet; then
             echo "No changes detected, skipping commit. ✅"
           else
