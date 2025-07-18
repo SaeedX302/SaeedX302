@@ -1,65 +1,32 @@
-name: Update README Quote 📝
+name: Update README With Quote
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
 
 jobs:
   update-readme:
-    name: Update README with new quote
+    name: Update README with a new quote
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout Repository 🛎️
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
         with:
-          token: ${{ secrets.GH_PAT }} # Uses the PAT you stored in secrets
-
-      - name: Update the quote in README.md 🚀
-        run: |
-          # Step 1: Fetch the quote and format it
-          QUOTE_JSON=$(curl -s "https://tsunquotes.vercel.app/quotes")
-          QUOTE_TEXT=$(echo "$QUOTE_JSON" | jq -r .quote)
-          QUOTE_AUTHOR=$(echo "$QUOTE_JSON" | jq -r .author)
-          FORMATTED_QUOTE="<i>❝ $QUOTE_TEXT ❞</i><br>— <b>$QUOTE_AUTHOR</b>"
-
-          # Define the markers for replacement
-          START_MARKER=""
-          END_MARKER=""
-
-          # Use a robust awk script to safely replace the content between the markers
-          awk -v quote="$FORMATTED_QUOTE" -v start="$START_MARKER" -v end="$END_MARKER" '
-            BEGIN {
-              in_section = 0
-            }
-            $0 ~ start {
-              print
-              print quote
-              in_section = 1
-              next
-            }
-            $0 ~ end {
-              in_section = 0
-            }
-            !in_section {
-              print
-            }
-          ' README.md > README.tmp && mv README.tmp README.md
+          token: ${{ secrets.GH_PAT }}
           
-          echo "README.md has been updated with the new quote."
-
-      - name: Commit and push if changed 💾
-        run: |
-          git config --global user.name "〆༯𝙎คAEED✘🫀"
-          git config --global user.email "tsuncca19@gmail.com"
-          git add README.md
+      - uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          # Is API se quote fetch karega
+          feed_list: "https://tsunquotes.vercel.app/quotes"
           
-          # Check if there are any changes to commit
-          if git diff --staged --quiet; then
-            echo "No changes detected, skipping commit. ✅"
-          else
-            git commit -m "chore(bot): ✨ Update quote of the moment"
-            git push
-            echo "README updated successfully. 🚀"
-          fi
+          # Ye tag README mein quote ki jagah batayega
+          comment_tag_name: "QUOTE_SECTION"
+          
+          # Ye template use karke quote ko format karega
+          # API se "quote" ab "$title" ban jayega aur "author" ab "$author"
+          template: "<i>❝ $title ❞</i><br>— <b>$author</b>"
+          
+          # Commit ke liye aapke details
+          commit_message: "chore(bot): ✨ Update quote of the moment"
+          commit_user_name: "〆༯𝙎คAEED✘🫀"
+          commit_user_email: "tsuncca19@gmail.com"
