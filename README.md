@@ -15,7 +15,6 @@
 <div align="center">
   <h3>✨ Quote of the Moment ✨</h3>
   <p>
-    <i>❝ Loading a fresh quote... ❞</i>
     </p>
 </div>
 
