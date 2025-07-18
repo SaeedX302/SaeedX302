@@ -49,7 +49,7 @@ jobs:
         echo "New Quote URL: $NEW_QUOTE_URL"
 
         # Update README.md - find the exact pattern and replace it
-        sed -i "s|<img src=\"https://quotes-github-readme\.vercel\.app/api[^\"]*\"|<img src=\"$NEW_QUOTE_URL\"|g" README.md
+        sed -i "s|<img src=\"https://quotes-github-readme\.vercel\.app/api[^\"]*\"|<img src=\"$NEW_QUOTE_URL\"|" README.md
         
         echo "README updated successfully"
 
