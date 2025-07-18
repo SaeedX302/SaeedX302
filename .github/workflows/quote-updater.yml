@@ -18,17 +18,10 @@ jobs:
       - name: Update README quote
         uses: siddharth2016/quote-readme@main
         with:
-          # Your README file
           readme_path: './README.md'
-          
-          # Your API endpoint
           quote_api_url: "https://tsunquotes.vercel.app/quotes"
-          
-          # API keys for your specific JSON response
           quote_key: "quote"
           author_key: "author"
-          
-          # Commit details
           commit_message: "chore(bot): ✨ Update quote of the moment"
           committer_name: "〆༯𝙎คAEED✘🫀"
           committer_email: "tsuncca19@gmail.com"
