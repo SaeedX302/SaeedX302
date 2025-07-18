@@ -1,5 +1,3 @@
-
-<!-- Header with animated wave -->
 <div align="center">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=200&section=header&text=Saeed%20X302&fontSize=60&fontAlignY=35&animation=twinkling&fontColor=fff" />
 </div>
@@ -8,24 +6,25 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=35&duration=3000&pause=1000&color=6A5ACD&center=true&vCenter=true&width=600&height=80&lines=Hi+there%2C+I'm+Saeed+%F0%9F%91%8B;Mobile+%26+Full-Stack+Developer+%F0%9F%9A%80;Flutter+%7C+Swift+%7C+React+%7C+Node.js+%F0%9F%8E%AF" alt="Typing SVG" />
 </h1>
 
-<!-- Profile Views Counter -->
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=SaeedX302&style=for-the-badge&color=blueviolet" alt="Profile Views">
   <img src="https://img.shields.io/github/followers/SaeedX302?style=for-the-badge&color=blue" alt="GitHub Followers">
   <img src="https://img.shields.io/github/stars/SaeedX302?style=for-the-badge&color=yellow" alt="GitHub Stars">
 </p>
 
-<!-- Daily Quote Section -->
+<div align="center">
+  <h3>✨ Quote of the Moment ✨</h3>
+  <p>
+    <i>❝ Loading a fresh quote... ❞</i>
+    </p>
+</div>
 
-
-<!-- Animated Banner -->
 <div align="center">
   <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="600" height="300" alt="Coding Animation"/>
 </div>
 
 ---
 
-<!-- About Me Section -->
 <div align="center">
   <h2>
     <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35" alt="Wave">
@@ -65,7 +64,6 @@
 
 ---
 
-<!-- Tech Stack -->
 <div align="center">
   <h2>
     <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="35" alt="Tech Stack"> 
@@ -104,7 +102,6 @@
 
 ---
 
-<!-- GitHub Stats -->
 <div align="center">
   <h2>
     <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="35" alt="Git Stats"/>
@@ -124,7 +121,6 @@
 
 ---
 
-<!-- Featured Projects -->
 <div align="center">
   <h2>
     <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35" alt="Projects">
@@ -176,7 +172,6 @@
 
 ---
 
-<!-- Currently Learning -->
 <div align="center">
   <h2>
     <img src="https://media.giphy.com/media/RJzm826vu7WbJvBtxX/giphy.gif" width="35" alt="Learning">
@@ -195,7 +190,6 @@
 
 ---
 
-<!-- GitHub Activity Graph -->
 <div align="center">
   <h2>
     <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnZtbmNtcnV3eXZwNGhnemNkemVyNzNhbjV4Y2IzOGFzaTdxbTVhNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oKIPEqDGUULpEU0aQ/giphy.gif" width="35" alt="Activity">
@@ -210,7 +204,6 @@
 
 ---
 
-<!-- Connect Section -->
 <div align="center">
   <h2>
     <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="35" alt="Connect">
@@ -241,7 +234,6 @@
 
 ---
 
-<!-- Support Section -->
 <div align="center">
   <h2>
     <img src="https://media.giphy.com/media/3oriO13KTkzPwTykp2/giphy.gif" width="35" alt="Support">
@@ -257,7 +249,6 @@
 
 ---
 
-<!-- Footer -->
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=4000&pause=1000&color=F97316&center=true&vCenter=true&width=600&height=60&lines=Thanks+For+Visiting!+%F0%9F%91%8B;Happy+Coding!+%F0%9F%9A%80;Let's+Build+Something+Amazing!+%E2%9C%A8"/>
   <br><br>
@@ -265,7 +256,6 @@
   <p><i>"تمہیں دیکھنے کی تمنا ہے، مگر فرصت کہاں ملتی ہے"</i></p>
 </div>
 
-<!-- Snake Animation -->
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://camo.githubusercontent.com/d89235743840ec3ae1246ff5d5c108d934f88f9121d91b7f796cb77db53aa29f/68747470733a2f2f63646e2e686173686e6f64652e636f6d2f7265732f686173686e6f64652f696d6167652f75706c6f61642f76313635313738303532323939352f7a5a624c38574d32762e6769663f773d3136303026683d383430266669743d63726f702663726f703d656e74726f7079266175746f3d666f726d61742c636f6d7072657373266769662d713d363026666f726d61743d7765626d">
@@ -274,7 +264,6 @@
   </picture>
 </div>
 
-<!-- Footer Wave -->
 <div align="center">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=120&section=footer" />
 </div>
