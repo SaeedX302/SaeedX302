@@ -12,39 +12,33 @@ jobs:
 
     steps:
       - name: Checkout 🛎️
-        # `checkout` action ko bhi PAT provide kar rahe hain
         uses: actions/checkout@v3
         with:
           token: ${{ secrets.GH_PAT }}
 
       - name: Get new quote and update README 🚀
+        env:
+          # FORMATTED_QUOTE ko yahan define kar rahe hain taake perl script access kar sake
+          FORMATTED_QUOTE: "<i>❝ $(curl -s https://tsunquotes.vercel.app/quotes | jq -r .quote) ❞</i><br>— <b>$(curl -s https://tsunquotes.vercel.app/quotes | jq -r .author)</b>"
         run: |
-          QUOTE_JSON=$(curl -s "https://tsunquotes.vercel.app/quotes")
-          QUOTE_TEXT=$(echo $QUOTE_JSON | jq -r .quote)
-          QUOTE_AUTHOR=$(echo $QUOTE_JSON | jq -r .author)
-          FORMATTED_QUOTE="<i>❝ $QUOTE_TEXT ❞</i><br>— <b>$QUOTE_AUTHOR</b>"
+          # Markers define kar rahe hain
+          START_MARKER=""
+          END_MARKER=""
           
-          awk -v quote="$FORMATTED_QUOTE" '
-            BEGIN {p=1}
-            // {print; print quote; p=0}
-            // {p=1}
-            p {print}
-          ' README.md > README.md.tmp && mv README.md.tmp README.md
+          # Perl one-liner jo safely content replace karega
+          # Ye sirf markers ke beech ka content badlega
+          perl -i -p0e "s/($START_MARKER\s*).*?(\s*$END_MARKER)/\$1\n$ENV{FORMATTED_QUOTE}\n\$2/s" README.md
 
       - name: Commit and push if changed 💾
         run: |
-          # Commit ke liye aapka naam aur email set kar rahe hain
           git config --global user.name "〆༯𝙎คAEED✘🫀"
           git config --global user.email "tsuncca19@gmail.com"
           git add README.md
           
-          # Check karein agar koi changes hain
           if git diff --staged --quiet; then
-            echo "No changes to commit. Working tree clean. ✅"
+            echo "No changes detected, skipping commit. ✅"
           else
-            # Changes commit karein
             git commit -m "chore(bot): ✨ Update quote of the moment"
-            # Updated push command jo PAT use karega
-            git push https://${{ secrets.GH_PAT }}@github.com/SaeedX302/SaeedX302.git HEAD:main
-            echo "Changes committed and pushed successfully. 🚀"
+            git push
+            echo "README updated successfully. 🚀"
           fi
