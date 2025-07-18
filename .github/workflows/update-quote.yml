@@ -41,7 +41,7 @@ jobs:
         NEW_QUOTE_URL="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=${ENCODED_QUOTE}&author=${ENCODED_AUTHOR}"
         
         # Update README.md
-        sed -i "s|https://quotes-github-readme\.vercel\.app/api?type=horizontal&theme=tokyonight&quote=.*|${NEW_QUOTE_URL}\" />|" README.md
+        sed -i "s|<img src=\"https://quotes-github-readme\.vercel\.app/api[^\"]*\"|<img src=\"${NEW_QUOTE_URL}\"|" README.md
         
     - name: Commit and push changes
       run: |
