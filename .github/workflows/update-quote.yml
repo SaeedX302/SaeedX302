@@ -45,8 +45,8 @@ jobs:
         
     - name: Commit and push changes
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
+        git config --local user.email "tsuncca19@gmail.com"
+        git config --local user.name "༯𝙎ค૯𝙀𝘿✘🫀"
         git add README.md
         
         # Check if there are changes to commit
