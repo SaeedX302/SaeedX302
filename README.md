@@ -1,5 +1,7 @@
 
 
+
+{FORMATTED_QUOTE}
 {FORMATTED_QUOTE}
 {FORMATTED_QUOTE}
 <div align="center">
