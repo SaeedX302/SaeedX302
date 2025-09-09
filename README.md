@@ -1,6 +1,3 @@
-
-
-
 <div align="center">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=ff0000,ff0000,990000&height=200&section=header&text=Saeed%20Xdie&fontSize=60&fontAlignY=35&animation=twinkling&fontColor=fff" />
 </div>
@@ -278,5 +275,5 @@
 </div>
 
 <div align="center">
-  <sub>© 2025-2026 Saeed X302. All rights reserved.</sub>
+  <sub>© 2021-2025 ༯𝙎ค૯𝙀𝘿✘🫀. All rights reserved.</sub>
 </div>
