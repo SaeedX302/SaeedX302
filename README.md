@@ -42,6 +42,10 @@
 
 <div align="center">
   <table>
+        <tr>
+      <td align="center">OM-0524-0504-701</td>
+      <td>OM-0524-0504-503</td>
+    </tr>
     <tr>
       <td align="center">🔭 Currently working on</td>
       <td>Mobile & Web Applications</td>
