@@ -23,7 +23,8 @@
 ---
 
 <div align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="600" height="300" alt="Coding Animation"/>
+
+  ![TSunStudio](https://cardivo.vercel.app/api?name=%E2%8C%97+TSunStudio+&description=Hi,+I%27m+%E0%BC%AF%F0%9D%99%8E%E0%B8%84%E0%AB%AF%F0%9D%99%80%F0%9D%98%BF%E2%9C%98%F0%9F%AB%80+and+love+the+world+of+coding+and+technology.&image=https://avatars.githubusercontent.com/u/114274102&backgroundColor=%23ecf0f1&instagram=Saeedxdie&github=%E2%80%8FSaeedx302)"
 </div>
 
 ---
