@@ -24,7 +24,7 @@
 
 <div align="center">
 
-  ![TSunStudio](https://cardivo.vercel.app/api?name=%E2%8C%97+TSunStudio+&description=Hi,+I%27m+%E0%BC%AF%F0%9D%99%8E%E0%B8%84%E0%AB%AF%F0%9D%99%80%F0%9D%98%BF%E2%9C%98%F0%9F%AB%80+and+love+the+world+of+coding+and+technology.&image=https://avatars.githubusercontent.com/u/114274102&backgroundColor=%23ecf0f1&instagram=Saeedxdie&github=%E2%80%8FSaeedx302)"
+  ![TSunStudio](https://cardivo.vercel.app/api?name=%E2%8C%97+TSunStudio+&description=Hi,+I%27m+%E0%BC%AF%F0%9D%99%8E%E0%B8%84%E0%AB%AF%F0%9D%99%80%F0%9D%98%BF%E2%9C%98%F0%9F%AB%80+and+love+the+world+of+coding+and+technology.&image=https://avatars.githubusercontent.com/u/114274102&backgroundColor=%23ecf0f1&instagram=Saeedxdie&github=%E2%80%8FSaeedx302)
 </div>
 
 ---
@@ -44,8 +44,8 @@
 <div align="center">
   <table>
         <tr>
-      <td align="center">OM-0524-0504-701</td>
-      <td>OM-0524-0504-503</td>
+      <td align="center">I Don't Know</td>
+      <td>Why People Like Me</td>
     </tr>
     <tr>
       <td align="center">🔭 Currently working on</td>
