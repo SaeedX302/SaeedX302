@@ -211,6 +211,15 @@
 
 ![GitHub Productive Time](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=saeedx302&theme=default&utcOffset=5)
 
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=saeedx302"/>
+</p>
+
+<p align="center">
+  <img src="https://github-contributor-stats.vercel.app/api?username=saeedx302&limit=5&theme=flat&combine_all_yearly_contributions=true"/>
+</p>  
+
+
 ---
 
 <div align="center">
