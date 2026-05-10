@@ -1,10 +1,15 @@
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=ff0000,ff0000,990000&height=200&section=header&text=Saeed%20Xdie&fontSize=60&fontAlignY=35&animation=twinkling&fontColor=fff" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=ff0000,ff0000,990000&height=200&section=header&text=𝙎ค૯𝙀𝘿%20✘%20🫀&fontSize=60&fontAlignY=35&animation=twinkling&fontColor=fff" />
 </div>
 
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=35&duration=3000&pause=1000&color=FF0000&center=true&vCenter=true&width=600&height=80&lines=Hi+there%2C+I'm+Saeed+%F0%9F%91%8B;Mobile+%26+Full-Stack;Developer+%F0%9F%9A%80;Flutter+%7C+Swift+%7C;React+%7C+Node.js+%F0%9F%8E%AF" alt="Typing SVG"/>
 
+</div>
+<div align="center">
+  
+![](https://count.getloli.com/@Saeedx302?name=Saeedx302&theme=asoul&padding=7&offset=0&align=center&scale=1&pixelated=1&darkmode=auto)
+  
 </div>
 
 <p align="center">
@@ -14,17 +19,13 @@
 </p>
 
 
-<div align="center">
-  
-![](https://count.getloli.com/@Saeedx302?name=Saeedx302&theme=asoul&padding=7&offset=0&align=center&scale=1&pixelated=1&darkmode=auto)
-  
-</div>
+[![𝙎ค૯𝙀𝘿✘🫀 profile views](https://u8views.com/api/v1/github/profiles/114274102/views/day-week-month-total-count.svg)](https://u8views.com/github/SaeedX302)
 
 ---
 
 <div align="center">
 
-  ![TSunStudio](https://cardivo.vercel.app/api?name=%E2%8C%97+TSunStudio+&description=Hi,+I%27m+%E0%BC%AF%F0%9D%99%8E%E0%B8%84%E0%AB%AF%F0%9D%99%80%F0%9D%98%BF%E2%9C%98%F0%9F%AB%80+and+love+the+world+of+coding+and+technology.&image=https://avatars.githubusercontent.com/u/114274102&backgroundColor=%23ecf0f1&instagram=Saeedxdie&github=%E2%80%8FSaeedx302)
+  ![TSunStudio](https://cardivo.vercel.app/api?name=%E2%8C%97+TSunStudio+&description=Hi,+I%27m+%F0%9D%99%8E%E0%B8%84%E0%AB%AF%F0%9D%99%80%F0%9D%98%BF%E2%9C%98%F0%9F%AB%80+and+love+the+world+of+coding+and+technology.&image=https://avatars.githubusercontent.com/u/114274102&backgroundColor=%23ecf0f1&instagram=Saeedxdie&github=%E2%80%8FSaeedx302)
 </div>
 
 ---
@@ -45,7 +46,7 @@
   <table>
         <tr>
       <td align="center">I Don't Know</td>
-      <td>Why People Like Me</td>
+      <td>Why People Are So Good</td>
     </tr>
     <tr>
       <td align="center">🔭 Currently working on</td>
@@ -61,7 +62,7 @@
     </tr>
     <tr>
       <td align="center">💬 Ask me about</td>
-      <td>Flutter, Swift, React, Node.js</td>
+      <td>Flutter, Swift, React, Node.js, Python</td>
     </tr>
     <tr>
       <td align="center">📫 How to reach me</td>
@@ -118,13 +119,10 @@
   </h2>
 </div>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SaeedX302&show_icons=true&theme=radical&hide_border=true" />
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=SaeedX302&theme=tokyonight&hide_border=true&background=0D1117&stroke=6A5ACD&ring=6A5ACD&fire=FF6B6B&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=6A5ACD&sideLabels=ffffff&dates=ffffff" />
 </div>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SaeedX302&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6A5ACD&text_color=ffffff" />
 
 ---
 
@@ -145,11 +143,11 @@
       <th>🔗 Links</th>
     </tr>
     <tr>
-      <td><b>📲 Tsuntg Downloader</b></td>
-      <td>For Downloading Telegram stickers</td>
-      <td>Flutter, Firebase</td>
+      <td><b>📲 TSun-V-BADGE-SPAM</b></td>
+      <td>For Send Unlimited Invites in FreeFire With Rear Accounts</td>
+      <td>Python, Docker</td>
       <td>
-        <a href="https://github.com/SaeedX302/Tsuntg-Downloader">
+        <a href="https://github.com/TSun-FreeFire/TSun-V-BADGE-SPAM">
           <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
         </a>
       </td>
@@ -215,10 +213,6 @@
   <img src="https://github-profile-trophy.vercel.app/?username=saeedx302"/>
 </p>
 
-<p align="center">
-  <img src="https://github-contributor-stats.vercel.app/api?username=saeedx302&limit=5&theme=flat&combine_all_yearly_contributions=true"/>
-</p>  
-
 
 ---
 
@@ -272,7 +266,7 @@
 
 <div align="center">
   <h3>✨ Quote of the Moment ✨</h3>
-  <p> new_quote
+  <p> Man Is Nothing Without Money
     </p>
 </div>
 
@@ -280,7 +274,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://camo.githubusercontent.com/d89235743840ec3ae1246ff5d5c108d934f88f9121d91b7f796cb77db53aa29f/68747470733a2f2f63646e2e686173686e6f64652e636f6d2f7265732f686173686e6f64652f696d6167652f75706c6f61642f76313635313738303532323939352f7a5a624c38574d32762e6769663f773d3136303026683d383430266669743d63726f702663726f703d656e74726f7079266175746f3d666f726d61742c636f6d7072657373266769662d713d363026666f726d61743d7765626d">
     <source media="(prefers-color-scheme: light)" srcset="https://camo.githubusercontent.com/d89235743840ec3ae1246ff5d5c108d934f88f9121d91b7f796cb77db53aa29f/68747470733a2f2f63646e2e686173686e6f64652e636f6d2f7265732f686173686e6f64652f696d6167652f75706c6f61642f76313635313738303532323939352f7a5a624c38574d32762e6769663f773d3136303026683d383430266669743d63726f702663726f703d656e74726f7079266175746f3d666f726d61742c636f6d7072657373266769662d713d363026666f726d61743d7765626d">
-    <img alt="github contribution grid snake animation" src="https://camo.githubusercontent.com/d89235743840ec3ae1246ff5d5c108d934f88f9121d91b7f796cb77db53aa29f/68747470733a2f2f63646e2e686173686e6f64652e636f6d2f7265732f686173686e6f64652f696d6167652f75706c6f61642f76313635313738303532323939352f7a5a624c38574d32762e6769663f773d3136303026683d383430266669743d63726f702663726f703d656e74726f7079266175746f3d666f726d61742c636f6d7072657373266769662d713d363026666f726d61743d7765626d">
+    <img alt="github contribution grid snake animation" src="https://miro.medium.com/v2/1*PlyeRxCFLCbP8cL7uuVt5g.gif">
   </picture>
 </div>
 
@@ -289,5 +283,5 @@
 </div>
 
 <div align="center">
-  <sub>© 2021-2025 ༯𝙎ค૯𝙀𝘿✘🫀. All rights reserved.</sub>
+  <sub>© 2016-2026 𝙎ค૯𝙀𝘿✘🫀. All rights reserved.</sub>
 </div>
