@@ -18,8 +18,10 @@
   <img src="https://img.shields.io/github/stars/SaeedX302?style=for-the-badge&color=yellow" alt="GitHub Stars">
 </p>
 
-
+<div align="center">
+  
 [![𝙎ค૯𝙀𝘿✘🫀 profile views](https://u8views.com/api/v1/github/profiles/114274102/views/day-week-month-total-count.svg)](https://u8views.com/github/SaeedX302)
+</div>
 
 ---
 
