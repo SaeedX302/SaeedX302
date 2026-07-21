@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=ff0000,ff0000,990000&height=200&section=header&text=𝙎ค૯𝙀𝘿%20✘%20🫀&fontSize=60&fontAlignY=35&animation=twinkling&fontColor=fff" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=ff0000,ff0000,990000&height=200&section=header&text=𝙎ค૯𝙀𝘿%20✘%20🫀&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=30&desc=Backend%20Developer%20|%20API%20Specialist%20|%20Prompt%20Engineer&descAlignY=55&descSize=15"/>
 </div>
 
 <div align="center">
@@ -19,9 +19,16 @@
 </p>
 
 <div align="center">
+
+  [![Years Badge](https://badges.pufler.dev/years/saeedx302?style=for-the-badge&color=63a4ff)](https://badges.pufler.dev)
+  [![Repos Badge](https://badges.pufler.dev/repos/saeedx302?style=for-the-badge&color=63a4ff)](https://badges.pufler.dev)
+  [![Commits Badge](https://badges.pufler.dev/commits/monthly/saeedx302?style=for-the-badge&color=63a4ff)](https://badges.pufler.dev)
   
-[![𝙎ค૯𝙀𝘿✘🫀 profile views](https://u8views.com/api/v1/github/profiles/114274102/views/day-week-month-total-count.svg)](https://u8views.com/github/SaeedX302)
 </div>
+
+---
+
+[![GitHub WidgetBox](https://github-widgetbox.vercel.app/api/profile?username=saeedx302&data=followers,repositories,stars&theme=darkmode)](https://github.com/saeedx302)
 
 ---
 
@@ -205,15 +212,24 @@
   </h2>
 </div>
 
+---
+
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SaeedX302&bg_color=0D1117&color=6A5ACD&line=6A5ACD&point=FF6B6B&area=true&hide_border=true" width="100%" />
+  <h2>📊 GitHub Stats</h2>
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=saeedx302&theme=tokyonight" width="100%">
+  
+  <p align="center">
+    <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=saeedx302&theme=tokyonight" width="45%">
+    <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=saeedx302&theme=tokyonight" width="45%">
+  </p>
 </div>
 
-![GitHub Productive Time](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=saeedx302&theme=default&utcOffset=5)
+---
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=saeedx302"/>
-</p>
+<div align="center">
+  <h2>📈 Contribution Graph</h2>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=saeedx302&bg_color=0d1117&color=63a4ff&line=83eaf1&point=63a4ff&area=true&hide_border=true&radius=8" width="100%">
+</div>
 
 
 ---
