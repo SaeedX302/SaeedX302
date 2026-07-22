@@ -290,9 +290,9 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://camo.githubusercontent.com/d89235743840ec3ae1246ff5d5c108d934f88f9121d91b7f796cb77db53aa29f/68747470733a2f2f63646e2e686173686e6f64652e636f6d2f7265732f686173686e6f64652f696d6167652f75706c6f61642f76313635313738303532323939352f7a5a624c38574d32762e6769663f773d3136303026683d383430266669743d63726f702663726f703d656e74726f7079266175746f3d666f726d61742c636f6d7072657373266769662d713d363026666f726d61743d7765626d">
-    <source media="(prefers-color-scheme: light)" srcset="https://camo.githubusercontent.com/d89235743840ec3ae1246ff5d5c108d934f88f9121d91b7f796cb77db53aa29f/68747470733a2f2f63646e2e686173686e6f64652e636f6d2f7265732f686173686e6f64652f696d6167652f75706c6f61642f76313635313738303532323939352f7a5a624c38574d32762e6769663f773d3136303026683d383430266669743d63726f702663726f703d656e74726f7079266175746f3d666f726d61742c636f6d7072657373266769662d713d363026666f726d61743d7765626d">
-    <img alt="github contribution grid snake animation" src="https://miro.medium.com/v2/1*PlyeRxCFLCbP8cL7uuVt5g.gif">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/saeedx302/saeedx302/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/saeedx302/saeedx302/output/github-contribution-grid-snake.svg" />
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/saeedx302/saeedx302/output/github-contribution-grid-snake.svg" />
   </picture>
 </div>
 
